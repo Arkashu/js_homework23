@@ -53,12 +53,9 @@ arr.splice(1, 4, 'a', 'b', 2, 3, 4, 'c', 5, 'e');*/
 // arr.sort();
 
 //Task#14
-/*const arr = [5, 6, 7, 8, 9];
-let sum = 0;
-arr.forEach((item) => {
-sum += item;
-});
-console.log(sum)*/
+const arr = [5, 6, 7, 8, 9];
+console.log(arr.reduce((a,b) => a + b));
+
 
 //Task#15
 /*const arr = [5, 6, 7, 8, 9];
@@ -81,12 +78,12 @@ const newArr = arr.filter(item => item.length > 5);*/
 // const newArr = arr.filter(item => Array.isArray(item));
 
 //Task#20
-const arr = [5,-3, 6,-5, 0,-7, 8, 9];
+/*const arr = [5,-3, 6,-5, 0,-7, 8, 9];
 let sum = 0;
 arr.forEach((item) => {
     item > 0 ? ++sum : sum;
 });
-console.log(sum)
+console.log(sum)*/
 
 
 
